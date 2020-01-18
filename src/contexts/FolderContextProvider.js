@@ -6,13 +6,13 @@ export const FolderContext = createContext();
 const FolderContextProvider = props => {
   const [title, setTitle] = useState("Folder"); //State To Show Title Of Current Folder
   const [folder, setFolder] = useState([
-    { title: "folder2", id: 1 },
-    { title: "folder3", id: 2 },
-    { title: "folder1", id: 3 }
+    { title: "folder2", id: 1, child: "" },
+    { title: "folder3", id: 2, child: "" },
+    { title: "folder1", id: 3, child: "" }
   ]); //State containing selected folder and sub folders
 
   const addFolder = title => {
-    setFolder([...folder, { title, id: uuid() }]);
+    setFolder([...folder, { title, id: uuid(), child: "" }]);
   }; //Add folder to selected folder
 
   const changeFolder = id => {

@@ -41,6 +41,7 @@ const AddFolderButton = () => {
             className="m-2"
             type="text"
             required
+            maxLength="30"
             placeholder="Folder Name"
             onChange={e => setTitle(e.target.value)}
           />

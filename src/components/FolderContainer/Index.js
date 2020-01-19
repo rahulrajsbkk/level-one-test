@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import FolderItem from "../FolderItem/Index";
 import { FolderContext } from "../../contexts/FolderContextProvider";
-import AddFolderButton from "../AddFolderComponent/Index";
+import AddFolderComponent from "../AddFolderComponent/Index";
 
 const FolderContainer = () => {
   const { folder, title } = useContext(FolderContext); // State containing selected folder
@@ -15,7 +15,7 @@ const FolderContainer = () => {
             })
           : null}
         {/* Handle If folder is undefined or null */}
-        <AddFolderButton />
+        <AddFolderComponent />
         {/* Add Folder Button */}
       </div>
     </div>

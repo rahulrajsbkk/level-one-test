@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="783.36" height="584" version="1.1" viewBox="-304 -304 783.36 584" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Squircle: x to 4th plus y to 4th equals radius to 4th</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>Squircle: x to 4th plus y to 4th equals radius to 4th</title>
+ <path d="m87.681 276c169.88 0 264.32 0 326-45.822 61.681-45.822 61.681-115.98 61.681-242.18 0-126.2 0-196.36-61.681-242.18-61.681-45.822-156.12-45.822-326-45.822-169.88 0-264.32 0-326 45.822-61.681 45.822-61.681 115.98-61.681 242.18 0 126.2 0 196.36 61.681 242.18 61.681 45.822 156.12 45.822 326 45.822z" fill="none" stroke="#d3d3d3" stroke-dasharray="16, 16" stroke-width="8"/>
+ <path d="m166.55-27.55h-57.709c-1.8747 0-3.3947-1.52-3.3947-3.3947v-57.709c0-9.3735-7.5999-16.973-16.973-16.973s-16.973 7.5999-16.973 16.973v57.709c0 1.8747-1.52 3.3947-3.3947 3.3947h-57.709c-9.3735 0-16.973 7.5999-16.973 16.973 0 9.3735 7.5999 16.973 16.973 16.973h57.709c1.8747 0 3.3947 1.52 3.3947 3.3947v57.709c0 9.3735 7.5999 16.973 16.973 16.973s16.973-7.5999 16.973-16.973v-57.709c0-1.8747 1.52-3.3947 3.3947-3.3947h57.709c9.3735 0 16.973-7.5999 16.973-16.973 0-9.3735-7.5999-16.973-16.973-16.973z" fill="#d3d3d3" stroke-width=".79478"/>
+</svg>

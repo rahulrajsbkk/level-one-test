@@ -1,0 +1,21 @@
+.folder-item {
+  height: 8rem;
+  width: 8rem;
+  color: white;
+  font-weight: 500;
+  background-image: url("../images/blue-folder.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.add-folder {
+  height: 8rem;
+  width: 8rem;
+  color: white;
+  background-image: url("../images/add-folder.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}

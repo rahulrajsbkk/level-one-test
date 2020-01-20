@@ -4,13 +4,12 @@ import { FolderContext } from "../../contexts/FolderContextProvider";
 import AddFolderComponent from "../AddFolderComponent/Index";
 
 const FolderContainer = () => {
-  const { folder, title } = useContext(FolderContext); // State containing selected folder
+  const { currentFolder } = useContext(FolderContext); // State containing selected folder
   return (
     <div className="container">
-      <div className="mt-3">{title}</div>
       <div className="d-flex flex-wrap">
-        {folder
-          ? folder.map(folder => {
+        {currentFolder
+          ? currentFolder.map(folder => {
               return <FolderItem key={folder.id} folder={folder} />;
             })
           : null}

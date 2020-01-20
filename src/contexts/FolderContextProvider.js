@@ -57,7 +57,8 @@ const FolderContextProvider = props => {
         currentFolder,
         addFolder,
         changeFolder,
-        goBack
+        goBack,
+        folder
       }}
     >
       {props.children}

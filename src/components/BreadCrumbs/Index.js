@@ -26,11 +26,12 @@ const BreadCrumbs = () => {
           return (
             <div
               key={id}
+              style={{ padding: "4px" }}
               onClick={() => {
                 goBack(id);
               }}
             >
-              /{name}
+              / {name}
             </div>
           );
         }
